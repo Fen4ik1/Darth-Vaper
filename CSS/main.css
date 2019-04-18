@@ -1,3 +1,18 @@
 * {
-    background-color: black;
+    background-color: rgb(78, 75, 75);
+}
+
+
+header {
+    background-color: #fff;
+    border: 1px solid red;
+    height: 100px;
+}
+
+.menu-wrapper {
+    display: inline-block;
+}
+
+.menu-wrapper .menu__item {
+    display: inline-block;
 }
