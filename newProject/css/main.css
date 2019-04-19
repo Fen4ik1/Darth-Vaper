@@ -81,10 +81,28 @@
     
 }
 
-.main .goods{
-    border: 1px solid;
+.goods_item{
+    background-color: black;
+}
+
+.goods{
+    
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    height: 100px;
+    padding: 10px 0;
+    
+}
+
+.item{
+    padding-right: 20px;
+}
+.item img{
+    
+    width: 100%;
+    height: 100%;
 }
