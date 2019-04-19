@@ -1,0 +1,208 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(95, 91, 91);
+}
+
+
+
+.nav {
+    border: 1px solid yellowgreen;
+    max-width: 1200px;
+    height: 75px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-color: #000;
+   
+    
+}
+.logo{
+    /* border: 1px solid yellow; */
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+
+}
+.logo img{
+    width: 25%;
+    height: 100%;
+}
+.navigation{
+    width: 100%;
+    padding: 15px;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    
+}
+.navigation li{
+    margin: 0 auto;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.banner{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 400px;
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-top: 40px;
+    
+}
+
+.blog{
+    /* border: 1px solid green; */
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.blog1,
+.blog2{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+}
+
+.blog1foto,
+.blog2foto{
+    width: 450px;
+    height: 350px;
+    /* border: 1px solid white; */
+    margin: 20px 0 20px 20px;
+}
+.blog1foto img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog1text{
+    max-width: 60%;
+    /* border: 1px solid red; */
+    font-size: 36px;
+    padding: 45px 0 45px 20px;
+    color: #fff;
+}
+.blog2text{
+    max-width: 60%;
+    /* border: 1px solid red; */
+    font-size: 36px;
+    padding: 30px 20px 45px 0;
+    color: #fff;
+}
+
+.blog2foto img{
+    width: 100%;
+    height: 100%;
+}
+.water{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.water h1,
+.water h3{
+    color: #fff;
+    text-transform: uppercase;
+}
+.water img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.water p {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 110px;
+}
+
+.mg6,
+.mg3,
+.mg0{
+    display: flex;
+   
+    /* border: 1px solid; */
+    margin: 20px 0;
+
+}
+.item_mg6,
+.item_mg3,
+.item_mg0{
+    border: 1px solid greenyellow;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.iron_main h1,
+.iron_main h3{
+    color: #fff;
+    text-transform: uppercase;
+}
+.iron_main{
+    text-align: center;
+}
+.iron p{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 65px;
+}
+.iron{
+    display: flex;
+    
+    /* border: 1px solid; */
+    margin: 20px 0;
+}
+.iron_item{
+    position: relative;
+    border: 1px solid yellow;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.iron_item img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    border-top: 1px solid yellowgreen;
+    color: #c4c4c4;
+}
+.contakt{
+    max-width: 1200px;
+    width: 100%;
+    font-size: 40px;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+.info{
+    /* border: 1px solid red; */
+    margin: 20px 0;
+}
